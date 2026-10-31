@@ -48,6 +48,10 @@ I stare at logs until something looks wrong. Then I pull the thread until the wh
 
 Check one out: [my rule on detections.ai](https://detections.ai/rules/01a18dec-d59f-738a-a5fc-5a31fd0ee1f5)
 
+## 🛡️ What I built
+
+**[Vigil MDR](https://github.com/sunilnaidu265/vigil-mdr-showcase):** my personal detection and response lab. It takes raw endpoint alerts, connects them into incidents, gets a first opinion from local AI, and leaves the final call to a human.
+
 ## 💬 Let's talk
 
 Threat hunting, SOC war stories or a weird log you can't explain. I'm in.
