@@ -19,15 +19,36 @@
 ## About me
 
 I'm a Security Analyst with 4 years of experience, focused on threat hunting and SOC
-operations. Security is my passion. I enjoy following a suspicious event back to its source,
-understanding how an attacker operated, and turning that knowledge into stronger defences.
+operations. Security is my passion. My day-to-day work is reading logs, learning what normal
+looks like, and spotting the anomalies that don't fit. When something looks wrong, I follow
+it back to its source, work out what happened, and turn that knowledge into stronger defences.
 
 ## What I do
 
+- **Log analysis:** reading endpoint and security logs to build a clear timeline of activity
+- **Anomaly spotting:** noticing behaviour that stands out from what's normal for a system or user
 - **Threat hunting:** looking for attacker behaviour that alerts didn't catch
 - **SOC operations:** investigating alerts and separating real threats from noise
 - **Detection engineering:** building and tuning detections mapped to MITRE ATT&CK
 - **Automation:** using Python to reduce repetitive security work
+
+## Anomalies I look for
+
+- Encoded or hidden PowerShell commands
+- Processes with an unusual parent, such as an Office app starting a shell
+- System tools running from the wrong folder, or pretending to be something else
+- Unexpected access to LSASS, which can signal credential theft
+- Bursts of discovery commands such as `whoami`, `hostname` and `net`
+- Unusual logins, new accounts and new persistence
+- Odd outbound connections from processes that shouldn't need them
+
+## How I investigate
+
+1. **Understand normal:** know what's expected for the host, user and time
+2. **Find the outlier:** pick out the event that doesn't fit
+3. **Build the timeline:** connect related logs, processes and users
+4. **Rule out harmless causes:** check for admin tools and expected activity
+5. **Decide and improve:** report what happened, then tune detections to catch it sooner
 
 ## Experience and certification
 
