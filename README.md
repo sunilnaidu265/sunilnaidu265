@@ -4,7 +4,7 @@
 
 ### I read logs so attackers don't get to hide in them.
 
-**Security Analyst • Threat Hunter • 4 years in the SOC trenches**
+**Security Analyst • Threat Hunter • SOC Analyst**
 
 ![eCTHP](https://img.shields.io/badge/eCTHP-Certified-1A56B0?style=for-the-badge)
 ![Threat Hunting](https://img.shields.io/badge/Threat_Hunting-Always_On-0A1F44?style=for-the-badge)
